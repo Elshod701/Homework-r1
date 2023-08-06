@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+}
+.container-header {
+  margin: 0 auto;
+  width: 1440px;
+  padding: 0 120px;
+  border-bottom: 1px solid grey;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+}
+
+.nav__list {
+  list-style: none;
+  font-size: 16px;
+  display: flex;
+  gap: 4rem;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.container-hero {
+  margin: 0 auto;
+  width: 1440px;
+  padding: 40px 120px;
+}
+.wrapper {
+  display: flex;
+  gap: 40px;
+}
+
+.title {
+  color: #999999;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.desc {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.info {
+  margin: 20px 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Libre Franklin", sans-serif;
+  color: #666666;
+}
+
+.author {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1440px;
+  padding: 30px 120px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+.card {
+  width: 380px;
+  height: 452px;
+  padding: 10px;
+}
+.card:hover {
+  box-shadow: 0 0 20px grey;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.card__title {
+  color: #999999;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 10px;
+  margin: 15px 0;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.card__info {
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.card__by {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 20px 0 0;
+}
+
+.card__img {
+  width: 360px;
+}
+
+.card-wrapper {
+  padding: 0 0 60px 0;
+  border-bottom: 1px solid grey;
+}
+
+/* CARDS-4 */
+
+.cards_1 {
+  width: 295px;
+  height: 390px;
+  padding: 10px;
+}
+
+.cards__img {
+  width: 275px;
+}
+
+.cards_1:hover {
+  box-shadow: 0 0 20px grey;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.cards__title {
+  color: #999999;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 10px;
+  margin: 15px 0;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.cards__info {
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.cards__by {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 20px 0 0;
+}
+
+.cards_1_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.cards_btn {
+  margin: 60px auto 40px;
+  display: block;
+  width: 205px;
+  height: 54px;
+  text-transform: uppercase;
+  background: #ffffff;
+  border: 1px solid black;
+}
+
+.cards_btn:hover {
+  color: #ffffff;
+  background: #000;
+  cursor: pointer;
+}
+
+/* Big cards */
+.big_card {
+  width: 590px;
+  height: 570px;
+  padding: 10px;
+}
+
+.big_card:hover {
+  box-shadow: 0 0 20px grey;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.big_card_img {
+  width: 570px;
+}
+
+/* Foooter */
+.footer-container {
+  margin: 0 auto;
+  padding: 60px 80px;
+  margin-top: 50px;
+  background: #141414;
+  width: 1240px;
+}
+.top-footer {
+  display: flex;
+  gap: 30px;
+  justify-content: start;
+  margin-bottom: 40px;
+}
+
+.reserved {
+  font-size: 12px;
+  color: #666666;
+  text-transform: uppercase;
+}
+
+.bottom-footer {
+  background: #141414;
+  padding-top: 60px;
+  border-top: 1px solid #4d4d4d;
+}
+
+.list {
+  list-style-type: none;
+  line-height: 32px;
+  height: 70px;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  align-items: end;
+  color: #ffffff;
+}
+.bf_title {
+  color: #666666;
+  font-size: 10px;
+  text-transform: uppercase;
+}
